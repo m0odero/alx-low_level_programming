@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
-int main () {
-	char str1[] = "\"Programming is like building a multilingual puzzle\n";	 
+/*
+ * print a string
+ */
+int main(void)
+{
+	char str1[] = "\"Programming is like building a multilingual puzzle";
+
 	puts(str1);
-	return(0);
+	return (0);
 }
